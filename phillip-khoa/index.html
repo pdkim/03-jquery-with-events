@@ -77,9 +77,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="scripts/blogArticles.js"></script>
   <script src="scripts/article.js"></script>
-  <!-- TODO: Link our new script file in. -->
+  <script src="scripts/articleView.js"></script>
+  <!-- TODONE: Link our new script file in. -->
 
   <!-- COMMENT: Explain the ordering of your script files. -->
-  <!-- PUT YOUR RESPONSE HERE -->
+  <!-- jquery is the first so that any javascript that utilizes jquery library can be accessed.  Next is blogArticles since articles.js relies on content within blogArticles.js.  Finally, articleView.js needs the templates from article.js in order to manipulate the DOM. -->
 </body>
 </html>
